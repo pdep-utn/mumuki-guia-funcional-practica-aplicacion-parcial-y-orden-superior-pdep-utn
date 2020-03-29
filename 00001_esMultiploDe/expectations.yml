@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: esMultiploDe
+  inspection: HasBinding
+- binding: esMultiploDe
+  inspection: HasComposition

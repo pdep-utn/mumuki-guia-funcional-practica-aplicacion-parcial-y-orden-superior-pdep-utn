@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: darVuelta
+  inspection: HasBinding
+- binding: darVuelta
+  inspection: Not:HasUsage:flip
+- binding: darVuelta
+  inspection: HasTypeSignature

@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: esBisiesto
+  inspection: HasBinding
+- binding: esBisiesto
+  inspection: HasUsage:esMultiploDe
+- binding: esBisiesto
+  inspection: HasComposition
+- binding: esMultiploDe
+  inspection: Not:HasBinding

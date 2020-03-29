@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: componer
+  inspection: Not:HasComposition
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: componer
+  inspection: HasBinding
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: componer
+  inspection: Not:HasUsage:.
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresTypeSignature:componer
