@@ -1,10 +1,14 @@
 ---
 expectations:
-- binding: esBisiesto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esBisiesto
   inspection: HasBinding
-- binding: esBisiesto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esBisiesto
   inspection: HasUsage:esMultiploDe
-- binding: esBisiesto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esBisiesto
   inspection: HasComposition
-- binding: esMultiploDe
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esMultiploDe
   inspection: Not:HasBinding

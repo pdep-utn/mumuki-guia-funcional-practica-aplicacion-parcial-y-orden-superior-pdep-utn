@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: esMultiploDe
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esMultiploDe
   inspection: HasBinding
-- binding: esMultiploDe
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: esMultiploDe
   inspection: HasComposition

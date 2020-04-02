@@ -1,12 +1,17 @@
 ---
 expectations:
-- binding: cuantoPagaCadaUno
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuantoPagaCadaUno
   inspection: HasBinding
-- binding: cuantoPagaCadaUno
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuantoPagaCadaUno
   inspection: HasUsage:techo
-- binding: techo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: techo
   inspection: Not:HasBinding
-- binding: cuantoPagaCadaUno
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: cuantoPagaCadaUno
   inspection: HasComposition
-- binding: "*"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
   inspection: Except:HasRedundantParameter

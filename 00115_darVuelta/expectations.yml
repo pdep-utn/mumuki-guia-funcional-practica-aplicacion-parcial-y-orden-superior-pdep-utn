@@ -1,8 +1,11 @@
 ---
 expectations:
-- binding: darVuelta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: darVuelta
   inspection: HasBinding
-- binding: darVuelta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: darVuelta
   inspection: Not:HasUsage:flip
-- binding: darVuelta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: darVuelta
   inspection: HasTypeSignature
